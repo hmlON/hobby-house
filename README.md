@@ -11,3 +11,5 @@ This application will be useful for people who want to share their knowledge, ta
 ## Authors
 1. [Nikita Kholin](https://github.com/hmlON)
 2. [Julia Larionova](https://github.com/LarionovaJulia)
+## UML Diagram
+![UML Class Diagram](/docs/UML.png)
