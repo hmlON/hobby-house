@@ -4,6 +4,12 @@ class SearchFilter
   end
 
   def filter
-    raise NotImplementedError, 'This is an abstract method'
+    raise AbstractMethodError
+  end
+end
+
+class AbstractMethodError < StandardError
+  def initialize(msg='This is an abstract method')
+    super
   end
 end
